@@ -1,0 +1,146 @@
+body {
+  background-color: hsl(30, 38%, 92%);
+  margin: 0;
+}
+
+
+
+.left-section {
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  width: 100%;
+  border: 0;
+}
+
+.right-section {
+  padding-left: 10px;
+  width: 100%;
+  text-align: left;
+  background-color: hsl(0, 0%, 100%);
+}
+
+.main {
+  width: 40%;
+  height: 50%;
+  margin: 100px auto;
+}
+
+.text-content {
+  position: relative;
+  right: 1px;
+  background-color: hsl(0, 0%, 100%);
+  width: 50%;
+  padding:0 1.5rem;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+h4 {
+  color: hsl(228, 12%, 48%);
+  font-weight: normal;
+  letter-spacing: 3px;
+  position: relative;
+  bottom: 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 2rem;
+  color: hsl(212, 21%, 14%);
+  width: 90%;
+  font-family: 'Fraunces', serif;
+}
+
+h2 {
+  position: relative;
+  bottom: 30px;
+  font-size: 2rem;
+  color: hsl(158, 36%, 37%);
+  font-family: 'Fraunces', serif;
+}
+
+.cutout {
+  font-weight: normal;
+  font-size: 16px;
+  color: hsl(228, 12%, 48%);
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  position: relative;
+  color: hsl(228, 12%, 48%);
+  font-weight: normal;
+  width: 90%;
+  font-family: 'Montserrat', sans-serif;
+  bottom: 15px;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.name {
+  position: relative;
+  bottom: 30px;
+}
+
+.des {
+  position: relative;
+  bottom: 25px;
+  line-height: 1.5;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+
+.cutout {
+  position: relative;
+  font-size: 14px;
+  text-decoration: line-through;
+  left: 13px;
+  bottom: 7px;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.btn {
+  position: absolute;
+  border: none;
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 600;
+  background: hsl(158, 36%, 37%);
+  padding: 15px 70px 15px 70px;
+  text-decoration: none;
+  bottom: 25px;
+}
+
+.btn:hover {
+  background: hsl(212, 21%, 14%);
+  text-decoration: none;
+}
+
+.add {
+  position: relative;
+}
+
+.cart-icon {
+  position: relative;
+  right: 5px;
+  top: 2px;
+}
+
+.footer {
+  position: absolute;
+  text-align: center;
+  top: 575px;
+  left: 80px;
+}
+
+.myname {
+  font-weight: 500;
+  color: hsl(158, 36%, 37%);
+}
